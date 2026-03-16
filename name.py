@@ -52,7 +52,7 @@ def save_progress(index):
 
 
 def split_sentences(text):
-    sentences = re.split(r'(?<=[.!?])\s+', text)
+    sentences = re.split(r'(?<=[.!,?])\s+', text)
     return sentences
 
 
